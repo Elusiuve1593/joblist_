@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/joblist_/static/css/main.c99b91a2.css",
+    "main.js": "/joblist_/static/js/main.0968ee52.js",
+    "static/media/team2.jpg": "/joblist_/static/media/team2.dbb0402673ab2c729903.jpg",
+    "static/media/team.jpg": "/joblist_/static/media/team.6ac85f0c9b8b30d7d665.jpg",
+    "static/media/team1.jpg": "/joblist_/static/media/team1.4362068a75928b36c2e1.jpg",
+    "index.html": "/joblist_/index.html",
+    "main.c99b91a2.css.map": "/joblist_/static/css/main.c99b91a2.css.map",
+    "main.0968ee52.js.map": "/joblist_/static/js/main.0968ee52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c99b91a2.css",
+    "static/js/main.0968ee52.js"
+  ]
+}
