@@ -10,15 +10,13 @@ import team1 from "../common/team1.jpg"
 import team2 from "../common/team2.jpg"
 import moment from "moment/moment";
 import {BookmarkIcon} from "@heroicons/react/24/outline";
-
-
 export const SinglePage = () => {
     const {id} = useParams()
     const navigate = useNavigate()
     const jobList = useSelector<AppRootStateType, JobListApiType[]>(state => state.jobSlice)
 
     const onClickHandler = () => {
-        return navigate("*")
+        return navigate("/joblist_")
     }
     const job = jobList.find(j => j.id === id)
 

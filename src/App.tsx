@@ -25,7 +25,7 @@ function App() {
             <ErrorSnackBar/>
             <BrowserRouter>
                 <Routes>
-                    <Route path={"*"} element={<JobListPage/>}/>
+                    <Route path={"/joblist_"} element={<JobListPage/>}/>
                     <Route path={":id"} element={<SinglePage/>}/>
                 </Routes>
             </BrowserRouter>
